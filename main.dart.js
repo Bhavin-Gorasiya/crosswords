@@ -83602,7 +83602,8 @@ bF(){this.co()
 this.cb()
 this.fg()}}
 A.pt.prototype={
-aa(){return new A.SL(A.aHj(),new A.qE("https://firebasestorage.googleapis.com/v0/b/leap-onboard-firebase-account.appspot.com/o/lost_game.mp3?alt=media&token=c620fb76-f5c3-4290-8e39-b45e294dd593"),new A.qE("https://firebasestorage.googleapis.com/v0/b/leap-onboard-firebase-account.appspot.com/o/wrong2.wav?alt=media&token=16e731e7-de77-46ec-ab7d-fd6af12b9fd9"),new A.qE("https://firebasestorage.googleapis.com/v0/b/leap-onboard-firebase-account.appspot.com/o/win3.wav?alt=media&token=975fceb2-f4e8-4a3f-8a20-3878098e5da6"),new A.qE("https://firebasestorage.googleapis.com/v0/b/leap-onboard-firebase-account.appspot.com/o/win2.wav?alt=media&token=1b2456d8-b530-46d8-a2e7-acb127e30316"),B.j)}}
+aa(){var s="https://luan.xyz/files/audio/ambient_c_motion.mp3"
+return new A.SL(A.aHj(),new A.qE(s),new A.qE(s),new A.qE(s),new A.qE(s),B.j)}}
 A.SL.prototype={
 H(a){var s,r,q={}
 q.a=0
