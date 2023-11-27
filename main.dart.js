@@ -25530,10 +25530,14 @@ Gu:function Gu(){},
 pt:function pt(a,b,c){this.c=a
 this.d=b
 this.a=c},
-SL:function SL(a,b){var _=this
+SL:function SL(a,b,c,d,e,f){var _=this
 _.d=a
+_.e=b
+_.f=c
+_.r=d
+_.w=e
 _.a=null
-_.b=b
+_.b=f
 _.c=null},
 am2:function am2(a,b,c){this.a=a
 this.b=b
@@ -83598,7 +83602,7 @@ bF(){this.co()
 this.cb()
 this.fg()}}
 A.pt.prototype={
-aa(){return new A.SL(A.aHj(),B.j)}}
+aa(){return new A.SL(A.aHj(),new A.qE("https://crosspunk.radarsofttech.in/audio/lost_game.wav"),new A.qE("https://crosspunk.radarsofttech.in/audio/wrong2.wav"),new A.qE("https://crosspunk.radarsofttech.in/audio/win.wav"),new A.qE("https://crosspunk.radarsofttech.in/audio/win2.wav"),B.j)}}
 A.SL.prototype={
 H(a){var s,r,q={}
 q.a=0
@@ -83687,40 +83691,41 @@ r.at=s
 r.a7()}},
 $S:10}
 A.am_.prototype={
-$0(){var s,r,q,p,o,n=this,m="https://luan.xyz/files/audio/coins.wav",l=n.a
-if(!(l.a||l.b)){s=n.c
+$0(){var s,r,q,p,o,n,m=this,l=m.a
+if(!(l.a||l.b)){s=m.c
 r=s.a
 q=J.hK(r)
-if(q.j(r,"ENTER")){s=n.b.d
-s.ng(0,new A.qE(m))
-r=n.d
-if(r.as.length!==0){if(!l.a&&!l.b){l=r.w
-A.b3().$1("==>> "+r.x.length+" =="+l.length)
-q=r.cy.at
-q.toString
-p=A.ah(q).i("aW<1>")
-if(A.as(new A.aW(q,new A.alV(r),p),!0,p.i("n.E")).length!==0){l.push(r.as.toUpperCase())
-r.a7()
-if(r.x.length===l.length){l=$.oq
+if(q.j(r,"ENTER")){s=m.b
+r=s.d
+r.ng(0,s.w)
+q=m.d
+if(q.as.length!==0){if(!l.a&&!l.b){l=q.w
+A.b3().$1("==>> "+q.x.length+" =="+l.length)
+p=q.cy.at
+p.toString
+o=A.ah(p).i("aW<1>")
+if(A.as(new A.aW(p,new A.alV(q),o),!0,o.i("n.E")).length!==0){l.push(q.as.toUpperCase())
+q.a7()
+if(q.x.length===l.length){l=$.oq
 if(l!=null)l.aP(0)
-s.ng(0,new A.qE(m))
-A.aRd(n.e,r)}}else{s.ng(0,new A.qE(m))
-r.Q.push(r.as.toUpperCase())
-r.a7()}}o=B.f.bT(r.Q.length,1)
-A.b3().$1("===>>> newLeaveCount "+o)
-l=r.f
-q=r.cy.y
-if(l!==A.cc(q==null?"5":q,null)-o){l=r.cy.y
-l=A.cc(l==null?"5":l,null)-o
-r.f=l
+r.ng(0,s.r)
+A.aRd(m.e,q)}}else{r.ng(0,s.f)
+q.Q.push(q.as.toUpperCase())
+q.a7()}}n=B.f.bT(q.Q.length,1)
+A.b3().$1("===>>> newLeaveCount "+n)
+l=q.f
+p=q.cy.y
+if(l!==A.cc(p==null?"5":p,null)-n){l=q.cy.y
+l=A.cc(l==null?"5":l,null)-n
+q.f=l
 if(l===0){A.b3().$1("===>>>> xp over")
 l=$.oq
 if(l!=null)l.aP(0)
-s.ng(0,new A.qE(m))
-A.aRH(n.e)}else{r.ax=!0
-r.a7()
-A.e6(B.lV,new A.alW(r),t.P)}}r.as=""
-r.a7()}}else{l=n.d
+r.ng(0,s.e)
+A.aRH(m.e)}else{q.ax=!0
+q.a7()
+A.e6(B.lV,new A.alW(q),t.P)}}q.as=""
+q.a7()}}else{l=m.d
 if(q.j(r,"DELETE")){l.as=""
 l.a7()}else{r=t.P
 A.e6(B.t,new A.alX(l,s),r).b0(new A.alY(),r)}}}},
