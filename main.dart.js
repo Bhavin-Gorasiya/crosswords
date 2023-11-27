@@ -83602,8 +83602,7 @@ bF(){this.co()
 this.cb()
 this.fg()}}
 A.pt.prototype={
-aa(){var s="https://firebasestorage.googleapis.com/v0/b/leap-onboard-firebase-account.appspot.com/o/coins.wav?alt=media&token=d61ee26f-0564-4224-b00a-5c407541c59e"
-return new A.SL(A.aHj(),new A.qE(s),new A.qE(s),new A.qE(s),new A.qE(s),B.j)}}
+aa(){return new A.SL(A.aHj(),new A.qE("https://crosspunk.radarsofttech.in/audio/lost_game.wav"),new A.qE("https://crosspunk.radarsofttech.in/audio/wrong2.wav"),new A.qE("https://crosspunk.radarsofttech.in/audio/win3.wav"),new A.qE("https://crosspunk.radarsofttech.in/audio/win2.wav"),B.j)}}
 A.SL.prototype={
 H(a){var s,r,q={}
 q.a=0
