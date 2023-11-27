@@ -83687,43 +83687,43 @@ r.at=s
 r.a7()}},
 $S:10}
 A.am_.prototype={
-$0(){var s,r,q,p,o,n=this,m=n.a
-if(!(m.a||m.b)){s=n.c
+$0(){var s,r,q,p,o,n=this,m="https://luan.xyz/files/audio/coins.wav",l=n.a
+if(!(l.a||l.b)){s=n.c
 r=s.a
 q=J.hK(r)
 if(q.j(r,"ENTER")){s=n.b.d
-s.ng(0,new A.qE("https://crosspunk.radarsofttech.in/audio/win2.wav"))
+s.ng(0,new A.qE(m))
 r=n.d
-if(r.as.length!==0){if(!m.a&&!m.b){m=r.w
-A.b3().$1("==>> "+r.x.length+" =="+m.length)
+if(r.as.length!==0){if(!l.a&&!l.b){l=r.w
+A.b3().$1("==>> "+r.x.length+" =="+l.length)
 q=r.cy.at
 q.toString
 p=A.ah(q).i("aW<1>")
-if(A.as(new A.aW(q,new A.alV(r),p),!0,p.i("n.E")).length!==0){m.push(r.as.toUpperCase())
+if(A.as(new A.aW(q,new A.alV(r),p),!0,p.i("n.E")).length!==0){l.push(r.as.toUpperCase())
 r.a7()
-if(r.x.length===m.length){m=$.oq
-if(m!=null)m.aP(0)
-s.ng(0,new A.qE("https://crosspunk.radarsofttech.in/audio/win3.wav"))
-A.aRd(n.e,r)}}else{s.ng(0,new A.qE("https://crosspunk.radarsofttech.in/audio/wrong2.wav"))
+if(r.x.length===l.length){l=$.oq
+if(l!=null)l.aP(0)
+s.ng(0,new A.qE(m))
+A.aRd(n.e,r)}}else{s.ng(0,new A.qE(m))
 r.Q.push(r.as.toUpperCase())
 r.a7()}}o=B.f.bT(r.Q.length,1)
 A.b3().$1("===>>> newLeaveCount "+o)
-m=r.f
+l=r.f
 q=r.cy.y
-if(m!==A.cc(q==null?"5":q,null)-o){m=r.cy.y
-m=A.cc(m==null?"5":m,null)-o
-r.f=m
-if(m===0){A.b3().$1("===>>>> xp over")
-m=$.oq
-if(m!=null)m.aP(0)
-s.ng(0,new A.qE("https://crosspunk.radarsofttech.in/audio/lost_game.wav"))
+if(l!==A.cc(q==null?"5":q,null)-o){l=r.cy.y
+l=A.cc(l==null?"5":l,null)-o
+r.f=l
+if(l===0){A.b3().$1("===>>>> xp over")
+l=$.oq
+if(l!=null)l.aP(0)
+s.ng(0,new A.qE(m))
 A.aRH(n.e)}else{r.ax=!0
 r.a7()
 A.e6(B.lV,new A.alW(r),t.P)}}r.as=""
-r.a7()}}else{m=n.d
-if(q.j(r,"DELETE")){m.as=""
-m.a7()}else{r=t.P
-A.e6(B.t,new A.alX(m,s),r).b0(new A.alY(),r)}}}},
+r.a7()}}else{l=n.d
+if(q.j(r,"DELETE")){l.as=""
+l.a7()}else{r=t.P
+A.e6(B.t,new A.alX(l,s),r).b0(new A.alY(),r)}}}},
 $S:0}
 A.alV.prototype={
 $1(a){return a.b.toUpperCase()===this.a.as.toUpperCase()},
